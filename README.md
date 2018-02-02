@@ -1,3 +1,3 @@
 # Modality-Completion
 
-Code borrows heavily from [PixelDCL](https://github.com/HongyangGao/PixelDCN). Thanks for their excellent work!
+Part of code borrows from [PixelDCL](https://github.com/HongyangGao/PixelDCN). Thanks for their excellent work!
