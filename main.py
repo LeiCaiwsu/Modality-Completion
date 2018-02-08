@@ -21,9 +21,9 @@ def configure():
     flags.DEFINE_float('trade_off', '0.1', 'trade_off')
     # data
     flags.DEFINE_string('data_dir', dir, 'Name of data directory')
-    flags.DEFINE_string('train_data', 'miccai_train_all.h5', 'Training data')
-    flags.DEFINE_string('valid_data', 'miccai_valid.h5', 'Validation data')
-    flags.DEFINE_string('test_data', 'miccai_test.h5', 'Testing data')
+    flags.DEFINE_string('train_data', 'adni_train_all.h5', 'Training data')
+    flags.DEFINE_string('valid_data', 'adni_valid.h5', 'Validation data')
+    flags.DEFINE_string('test_data', 'adni_test.h5', 'Testing data')
     flags.DEFINE_string('data_type', '3D', '2D data or 3D data')
     flags.DEFINE_integer('batch', 5, 'batch size')
     flags.DEFINE_integer('channel', 1, 'channel size')
